@@ -1,0 +1,5 @@
+PROTEIN	nap-nr_minus_rice.fasta	1
+PROTEIN	genewise-nr_minus_rice.fasta	5
+TRANSCRIPT	StringTie	1q
+
+PacBio

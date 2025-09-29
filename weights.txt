@@ -1,0 +1,2 @@
+TRANSCRIPT	PacBio	1
+TRANSCRIPT	StringTie	10
