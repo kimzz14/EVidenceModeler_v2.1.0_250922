@@ -1,7 +1,12 @@
-fi = open('gene_projection.evm.gff3')
-fo = open('gene_projection.evm.re.gff3', 'w')
+import sys
+
+prefix=sys.argv[1]
+source=sys.argv[2]
+
+fi = open(f'{prefix}.gff3')
+fo = open(f'{prefix}.re.gff3', 'w')
 
 for line in fi:
-    line2 = line.replace('Augustus', 'gene_projection')
+    line2 = line.replace('Augustus', source)
     fo.write(line2)
 fo.close()
